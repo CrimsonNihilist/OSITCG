@@ -8,7 +8,7 @@ public class CardInfoPlug : MonoBehaviour {
     public string Name, Description;
     Transform NameText, DescriptionText, Attack, Health, Cost;
 	// Use this for initialization
-	void Start () {
+	public void Makeit () {
         NameText = this.transform.GetChild(0);
         DescriptionText = this.transform.GetChild(2);
         Attack = this.transform.GetChild(3);
